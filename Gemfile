@@ -35,7 +35,14 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'nyan-cat-formatter'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'shoulda-matchers'
+  gem 'factory_girl'
+  gem 'database_cleaner'
 end
+
+gem 'rails_12factor', group: :production
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
